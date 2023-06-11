@@ -1,0 +1,27 @@
+.add-task {
+    width: 500px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-top: 1px solid rgb(244, 244, 244);
+    border-right: 1px solid rgb(232, 232, 232);
+    border-left: 1px solid rgb(232, 232, 232);
+    border-bottom: 1px solid rgb(170, 170, 170);
+    margin-top: 100px;
+    font-family: Arial;
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 200;
+}
+
+button {
+    background-color: rgb(39,84,152);
+    color: white;
+    width: 200px;
+    height: 40px;
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    font-family: Arial;
+}

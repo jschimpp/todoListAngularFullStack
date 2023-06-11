@@ -1,0 +1,6 @@
+<ul class="task-list">
+    <li class="task" *ngFor="let item of tasks">
+        <input class="complete" type="checkbox" [defaultChecked]="item.completed" (change) = "toggleComplete(item._id)" />{{item.taskName}}
+        <button (click) = "delete(item._id)">Delete</button>
+    </li>
+</ul>
